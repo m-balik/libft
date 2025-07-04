@@ -15,7 +15,7 @@ SRC = ${PART1} ${PART2}
 
 OBJS = ${SRC:.c=.o}
 
-CC = gcc
+CC = cc
 RM = rm -f
 CFLAGS = -Wall -Wextra -Werror
 INCLUDE = -I .
